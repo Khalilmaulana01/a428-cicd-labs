@@ -14,11 +14,13 @@
 
 //The ES6 Way --> Destructuring Object (shorter way)
 const profile = {
-	firstName: "John",
-	lastName: "Doe",
+	firstName: "Khalil",
+	lastName: "Maulana",
 	age: 18,
 };
 
 //should be same name with object property
 const { firstName, lastName, age } = profile;
+// ({ firstName, lastName, age } = profile);
 console.log(firstName, lastName, age);
+//John Doe 18
