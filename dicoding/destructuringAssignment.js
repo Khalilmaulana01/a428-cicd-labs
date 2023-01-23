@@ -23,3 +23,13 @@ const person = {
 
 const { firstName: fn, lastName: ln, age: a } = person;
 console.log(fn, ln, a);
+
+//Destructuring Assignment Array
+const favorites = ['salad', 'seafood', 'nugget', 'soup']
+const [myfood, yourfood] = favorites
+
+console.log(myfood)
+
+const favo = ['salada']
+const [ourfood, hisfood = 'nasgor'] = favo
+console.log(hisfood)

@@ -4,3 +4,4 @@ const [, , thirdFood, fourthFood] = favorites;
 
 // console.log(firstFood); --> error because firstFood is not defined
 console.log(thirdFood, fourthFood);
+

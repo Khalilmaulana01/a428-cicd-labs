@@ -24,3 +24,4 @@ const { firstName, lastName, age } = profile;
 // ({ firstName, lastName, age } = profile);
 console.log(firstName, lastName, age);
 //John Doe 18
+
